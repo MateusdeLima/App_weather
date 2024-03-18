@@ -116,3 +116,27 @@ body {
     margin-top: 20px;
 }
 
+/* Estilos responsivos */
+@media (max-width: 476px) {
+    #container {
+        width: 90%; /* Ajuste a largura do container */
+        margin: 20px auto; /* Adicione margem superior e inferior */
+    }
+
+    #search input[type="search"] {
+        flex-grow: 1; /* Permita que o campo de busca ocupe o espaço disponível */
+    }
+
+    #weather {
+        text-align: center; /* Centralize o texto para dispositivos menores */
+    }
+
+    #infos {
+        flex-direction: column; /* Empilhe as informações verticalmente */
+    }
+
+    .info {
+        margin-bottom: 10px; /* Adicione margem inferior entre os itens */
+    }
+}
+
